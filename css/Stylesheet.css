@@ -1,0 +1,209 @@
+﻿body {
+    background-color: rgb(71, 181, 255);
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    color: rgb(99, 86, 102);
+}
+
+p {
+    text-align: justify;
+    display: inline-block;
+    word-wrap: break-word;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    font-size: 4rem;
+    width: 300;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: rgb(113, 201, 206);
+    line-height: 2;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(113, 201, 206);
+    font-weight: normal;
+    display: inline-block;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(113, 201, 206);
+    display: inline-block;
+}
+
+.software-text {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pirate-text {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.top-container {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 0;
+    background-color: rgb(227, 253, 253);
+    width: 100%;
+    height: 20%;
+    min-height: 200px;
+}
+
+.ship-container {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(166, 227, 233);
+    width: 100%;
+    height: 3px;
+}
+
+.middle-container {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(227, 253, 253);
+    width: 100%;
+    height: 60%;
+    min-height: 200px;
+}
+
+.bottom-container {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(227, 253, 253);
+    width: 100%;
+    height: 20%;
+    min-height: 200px;
+}
+
+.skill-row {
+    margin: auto;
+    max-width: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.list-left {
+    text-align: left;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 10%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 10%;
+    top: 300px;
+}
+
+.mountain {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.profile-pic {
+    border-radius: 35%;
+}
+
+.programmer-image {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+    float: right;
+}
+
+.project-manager-image {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    float: left;
+}
+
+.contact-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-image:hover {
+    opacity: 0.5;
+}
+
+.linkedin-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin-image:hover {
+    opacity: 0.5;
+}
+
+.ship {
+    margin-right: -25%;
+    margin-bottom: 0px;
+    position: absolute;
+    animation-name: ship-animation;
+    animation-duration: 26s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes ship-animation {
+    0% {
+        margin-right: -25%;
+        bottom: 0px;
+    }
+
+    10% {
+        margin-right: 0%;
+        bottom: 0px;
+    }
+
+    25% {
+        margin-right: 20%;
+        bottom: 0px;
+    }
+
+    50% {
+        margin-right: 50%;
+        bottom: 0px;
+    }
+
+    75% {
+        margin-right: 80%;
+        bottom: 0px;
+    }
+
+    100% {
+        margin-right: 120%;
+        bottom: 0px;
+    }
+}
